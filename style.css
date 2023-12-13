@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+    background-color: #e4c6c6;
+}
+/* :root{
+    --navbar-height:5rem;
+} */
+.navbar{
+    top: 0px;
+    background-color: white;
+    width: 94.9rem;
+}
+.navbar a{
+    text-decoration: none;
+    margin: 0.9rem 4.5rem;
+    font-size: 20px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.content{
+    display: flex;
+}
+.links{
+    position: absolute;
+    right: 0;
+    top: 1.5rem;
+}
+.containert{
+    background-image: url(./img/bg.jpg);
+    height: 46rem;
+    width: 94.9rem;
+    left: 0.5rem;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    display: flex;
+    background-color: white;
+}
+.title{
+    margin: 196px auto;
+    font-size: 23px; 
+    font-family: 'Roboto Mono', monospace; 
+}
+.css{
+    background: gray ;
+    color: white;
+    padding: 15px 25px;
+}
+#projects{
+    position: absolute;
+    top: 47rem;
+    height: 62rem;
+}
+#projects h1{
+    font-size: 33px; 
+    font-family: 'Roboto Mono', monospace; 
+    padding: 0 5rem;
+}
+.main{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px 100px;
+    padding: 0 12rem ;
+}
+#contacts{
+    position: absolute;
+    top: 109rem;
+    height: 30rem;
+    width: 94.9rem;
+    background-image: url(./img/contact.jpg) ;
+    background-size: 97rem 30rem;
+}
+#contacts h1{
+    font-size: 33px; 
+    font-family: 'Roboto Mono', monospace; 
+    padding: 1rem 5rem;
+    color: white;
+}
+#contacts p{
+    font-size: 23px; 
+    font-family: 'Roboto Mono', monospace; 
+    padding: 0 5rem;
+    color: white;
+}
+
+#contact-box{
+    padding: 0 5rem;
+    color: white;
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.1rem 0.4rem;
+    border-radius: 9px;
+    font-size: 1rem;
+    border: 2px solid white;
+}
+#contact-box form{
+    width: 40%;  
+}
+#contact-box label{
+    font-size: 1.3em;
+    font-family: 'Roboto Mono', monospace;  
+}
+#contact-box button{
+    width: 190px;
+    margin-left: 154px; 
+    font-family: 'Roboto Mono', monospace; 
+    color: black;
+    border-color: black;
+    background-color: white;
+}
+#contact-box button:hover{
+    color: white;
+    border-color: white;
+    background-color: black;
+}
+.fontawesomesvg {width: 1em;
+    height: 1em;
+    vertical-align: -.125em;
+ 
+  }
+
+footer{
+    background-color: black;
+    height: 2rem;
+    width: 94.9rem;
+    position: absolute;
+    top: 140rem;
+    text-align: center;
+}
+.foot{
+    color: white;
+    font-family: 'Roboto Mono', monospace; 
+}
